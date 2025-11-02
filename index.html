@@ -291,12 +291,12 @@
     }
 
     .skill-item {
-      background: rgba(30, 41, 59, 0.5);
-      border-radius: 15px;
-      padding: 2rem 1rem;
+      background: transparent;            
+      border-radius: 0;                   
+      padding: 1rem;                      
       text-align: center;
       transition: all 0.3s ease;
-      border: 1px solid transparent;
+      border: none;                       
       opacity: 0;
       transform: scale(0.8);
     }
@@ -405,16 +405,17 @@
     }
 
     .social-links a {
-      width: 50px;
-      height: 50px;
-      background: rgba(99, 102, 241, 0.2);
-      border-radius: 50%;
-      display: flex;
+      width: auto;                          
+      height: auto;                        
+      background: transparent;              
+      border-radius: 0;                     
+      display: inline-flex;
       align-items: center;
       justify-content: center;
       color: var(--light);
       text-decoration: none;
       transition: all 0.3s ease;
+      font-size: 2rem;
     }
 
     .social-links a:hover {
